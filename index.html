@@ -1,0 +1,12 @@
+</head>
+<body>
+<form action="{% url 'index' %}" method="post">
+    {%csrf_token %}
+  Name:<input type="text" name="name"><br>
+  Age: <input type="text" name="age"><br>
+  Class:<input type="text" name="Class">
+    <input type="Submit">
+</form>
+
+</body>
+</html>
